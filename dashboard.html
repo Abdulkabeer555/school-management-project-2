@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+    <!-- bootsrap icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+<script src="https://www.google.com/jsapi"></script>
+
+ <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>P2T DASHBOARD</title>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-2 col-lg-2">
+<!-- DASHBOARD WORKING STARTS HERE -->
+<div>
+         <aside
+      class="sidebar position-fixed top-0 left-0 overflow-auto h-100 float-left"
+      id="show-side-navigation1"
+    >
+      <i
+        class="uil-bars close-aside d-md-none d-lg-none"
+        data-close="show-side-navigation1"
+      ></i>
+      <div
+        class="sidebar-header d-flex justify-content-center align-items-center px-3 py-4"
+      >
+      <a href="index.php">
+        <img
+          class="rounded-pill"
+          src="assets/images/main_images/footer_logo.png"
+          alt=""
+        />
+        </a>
+      </div>
+
+      <ul class="categories list-unstyled dashboard-size p-2">
+        <li class="has-dropdown">
+          <i class="bi bi-clipboard-data"></i><a href="#"> Dashboard</a>
+          <ul class="sidebar-dropdown list-unstyled">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Reports</a></li>
+          </ul>
+        </li>
+
+       
+
+        <li class="has-dropdown">
+          <i class="bi bi-collection"></i><a href="#"> Courses</a>
+          <ul class="sidebar-dropdown list-unstyled">
+           <li><a href="#">Overview</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Reports</a></li>
+          </ul>
+        </li>
+
+        <li class="has-dropdown">
+          <i class="bi bi-back"></i><a href="#"> Tasks</a>
+          <ul class="sidebar-dropdown list-unstyled">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Reports</a></li>
+          </ul>
+        </li>
+
+        <li class="has-dropdown">
+          <i class="uil-envelope-download fa-fw"></i><a href="#"> Reporting</a>
+          <ul class="sidebar-dropdown list-unstyled">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Reports</a></li>
+          </ul>
+        </li>
+
+        <li class="has-dropdown">
+          <i class="bi bi-person"></i><a href="#"> Instructor</a>
+          <ul class="sidebar-dropdown list-unstyled">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Reports</a></li>
+          </ul>
+        </li>
+
+        <li class="has-dropdown mt-5">
+          <i class="bi bi-file-earmark-person"></i><a href="#"> Profile</a>
+          <ul class="sidebar-dropdown list-unstyled">
+          <li><a href="#">Overview</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Reports</a></li>
+          </ul>
+        </li>
+
+        <li class="has-dropdown">
+          <i class="bi bi-arrow-up-right-square"></i><a href="#"> Activity</a>
+          <ul class="sidebar-dropdown list-unstyled li-list">
+           <li><a href="#">Overview</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Reports</a></li>
+          </ul>
+        </li>
+
+        <li class="mt-5 setting-class"><i class="uil-map-marker"></i><a href="#"> Support</a></li>
+
+         <li class="setting-class"><i class="uil-chart-pie-alt"></i><a href="#"> Settings</a></li>
+
+         
+
+      </ul>
+
+ <div class="used-space">
+      <div class="d-flex justify-content-between">
+        <span>Used Space</span>
+        <i class="bi bi-x"></i>
+      </div>
+      <p class="pt-2 ">your team has used 80% of available space. Need More?</p>
+<div class="pb-3">
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-warning " style="width: 75%"></div>
+</div>
+</div>
+<a href="" class="dismiss">Dismiss</a>
+<a href="" class="upgrade ">Upgrade Plan</a>
+
+      </div>
+
+      <div class="line mt-4 mb-4"></div>
+
+
+    <div class="d-flex justify-content-between px-2">
+      <div>
+        <img src="assets/images/main_images/ladyimage.jpg" alt="" class="rounded-circle olivia-img">
+      </div>
+      <div class="d-flex flex-column main-text-olivia">
+        <span class="text-olivia">Olivie Ryhe</span>
+        <span class="text-olivia">olivia@e-learning.com</span>
+      </div>
+      <i class="bi bi-box-arrow-right"></i>
+
+    </div>
+       </aside>
+       </div>
+<!-- DASHBOARD WORKING ENDS HERE -->
+        </div>
+
+
+        <div class="col-xl-10 col-lg-10 ">
+          <!-- WELCOME HEADING STARTS HERE -->
+        <nav class="navbar navbar-expand-md">
+        <div class="container-fluid mx-2 ">
+          <div class="navbar-header">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#toggle-navbar"
+              aria-controls="toggle-navbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="uil-bars text-white"></i>
+            </button>
+            <h3>Welcome back,Olivia</h3>
+            <p class="text-grey">Your current course summary and activity</p>
+          </div>
+       
+           <div class="collapse navbar-collapse" id="toggle-navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <div class="search position-relative text-center px-4 mt-2">
+                  <input
+                    type="text"
+                    class="form-control w-100 border-2px solid grey"
+                    placeholder="Search here"
+                  />
+                  <i class="fa fa-search position-absolute d-block fs-6"></i>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i
+                    data-show="show-side-navigation1"
+                    class="uil-bars show-side-btn"
+                  ></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- WELCOME HEADING ENDS HERE -->
+
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-8 col-lg-8 mt-5">
+<div class="container-fluid">
+    <div class="row welcome">
+
+      <!-- BANNER WORKS STARTS HERE -->
+        <div class="col-xl-6 col-lg-6">
+<div class="welcome-img">
+  <img src="assets/images/main_images/welcomeimage.png" alt="" class="welcome-img-design">
+</div>
+        </div>
+
+    <div class="col-xl-6 col-lg-6 welcome-text-main">
+<div class="welcome-text">
+  <h3 class="text-white welcome-text-1">JOIN NOW AND GET DISCOUNT</h3>
+  <h3 class="text-white welcome-text-1">VOUCHER UP TO 20%</h3>
+  <Lorem class="text-white welcome-text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati, explicabo animi veritatis architecto, sequi optio repellendus, illo tenetur earum consequatur atque! Doloremque, quas tempore.</p>
+</div>
+        </div>
+    </div>
+</div>
+<!-- BANNER WORKS ENDS HERE -->
+
+
+<!-- WORKING OF COURSES STARTS -->
+      <div class="container-fluid">
+        <div class="row pt-4">
+          
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 py-3 ">
+         <div class="cards py-2">
+            <div class="d-flex justify-content-between px-4">
+              <p class="text-grey">Courses Completed</p>
+              <div class="position-relative">
+              <i class="bi bi-three-dots-vertical drop-show"></i>
+<div class="my-drop">
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+</div>
+            </div>
+            </div>
+<span class="fs-3 px-4 fw-bold">28</span> 
+          </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 py-3">
+         <div class="cards py-2">
+            <div class="d-flex justify-content-between px-4">
+              <p class="text-grey">In Progress Courses</p>
+              <i class="bi bi-three-dots-vertical"></i>
+
+            </div>
+<span class="fs-3 px-4 fw-bold">14</span> 
+          </div>
+          </div>
+
+           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 py-3 ">
+         <div class="cards py-2">
+            <div class="d-flex justify-content-between px-4">
+              <p class="text-grey">Saved Courses</p>
+              <i class="bi bi-three-dots-vertical"></i>
+
+            </div>
+<span class="fs-3 px-4 fw-bold">91</span> 
+          </div>
+          </div>
+
+
+          
+ </div>
+      </div>
+<!-- WORKING OF COURSES ENDS -->
+</div>
+
+
+<div class="col-xl-4 col-lg-4 mt-5">
+
+<!-- MY HOMWORK PAGES STARTS HERE -->
+<div class="d-flex justify-content-between px-4 mb-3">
+              <h5 class="">My Homework</h5>
+              <i class="bi bi-three-dots-vertical"></i>
+
+            </div>
+<!-- MY HOMWORK PAGES ENDS HERE -->
+
+
+<!-- MY HOMWORK PAGES IT MULTIMEDIA STARTS HERE -->
+<div class="main-home main-home-design1 d-flex p-4 ">
+    <i class="bi bi-tv icon"></i>
+    <div class="main-home-logo">
+      
+      <div class="d-flex justify-content-between">
+    <div class="main-home-heading">
+    <h6 class="text">IT AND MULTIMEDIA</h6>
+    <h6 class="text">55%</h6>
+    </div>
+
+    
+</div>
+
+<div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar prog-design1" style="width: 55%"></div>
+</div>
+      
+
+</div>
+    
+
+</div>
+<!-- MY HOMWORK PAGES IT MULTIMEDIA ENDS HERE -->
+
+
+
+<!-- MY HOMWORK PAGES DROP SHIPPING STARTS HERE -->
+<div class="main-home main-home-design2 d-flex p-4 ">
+    <i class="bi bi-handbag icon"></i>
+
+    <div class="main-home-logo">
+      
+      <div class="d-flex justify-content-between">
+    <div class="main-home-heading">
+    <h6 class="text">DROP SHIPPING</h6>
+    <h6 class="text">75%</h6>
+    </div>
+
+    
+</div>
+
+<div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar prog-design2" style="width: 75%"></div>
+</div>
+      
+
+</div>
+    
+
+</div>
+<!-- MY HOMWORK PAGES DROP SHIPPING ENDS HERE -->
+
+
+
+<!-- MY HOMWORK PAGES ONLINE SELLING STARTS HERE -->
+<div class="main-home main-home-design3 d-flex p-4 ">
+   <i class="bi bi-cart2 icon"></i>
+
+    <div class="main-home-logo">
+      
+      <div class="d-flex justify-content-between">
+    <div class="main-home-heading">
+    <h6 class="text">Online Selling</h6>
+    <h6 class="text">70%</h6>
+    </div>
+
+    
+</div>
+
+<div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar prog-design3" style="width: 70%"></div>
+</div>
+      
+
+</div>
+    
+
+</div>
+<!-- MY HOMWORK PAGES ONLINE SELLING ENDS HERE -->
+
+
+
+<!-- MY HOMWORK PAGES ACCOUNTING STARTS HERE -->
+<div class="main-home main-home-design4 d-flex p-4">
+    <i class="bi bi-link-45deg icon"></i>
+
+    <div class="main-home-logo">
+      
+      <div class="d-flex justify-content-between">
+    <div class="main-home-heading">
+    <h6 class="text">ACCOUNTING</h6>
+    <h6 class="text">90%</h6>
+    </div>
+
+    
+</div>
+
+<div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar prog-design4" style="width: 90%"></div>
+</div>
+      
+
+</div>
+    
+
+</div>
+<!-- MY HOMWORK PAGES ACCOUNTING ENDS HERE -->
+
+
+
+
+</div>
+</div>
+</div>
+
+
+<!-- CHARTS WORKS STARTS HERE -->
+
+<div class="container-fluid">
+<div class="row mt-4 mb-4">
+  <!-- WORKING OF BAR CHART STARTS HERE -->
+<div class="col-xl-8 col-lg-8 col-md-8">
+  <div class="learning-bar-chart p-4">
+  <div>
+  <div class="d-flex justify-content-between">
+              <h5 class="">Learning Activity</h5>
+              <i class="bi bi-three-dots-vertical"></i>
+
+            </div>
+    <p class="text-grey">track how your rating compares to your industry average</p>
+  </div>
+  <div>
+  <canvas id="myChart"></canvas>
+</div>
+</div>
+</div>
+<!-- WORKING OF BAR CHART ENDS HERE -->
+
+<!-- WORKING RADAR CHART STARTS HERE -->
+<div class="col-xl-4 col-lg-4 col-md-4 ">
+  <div class="radar-chart-box p-4">
+  <div class="d-flex justify-content-between">
+              <h5 class="">Scoring Activity</h5>
+              <i class="bi bi-three-dots-vertical"></i>
+
+            </div>
+  <div>
+    <canvas id="myRadarChart"></canvas>
+  </div>
+
+   <div class="line">
+
+            </div>
+<div class="pt-2 d-flex justify-content-end">
+  <button type="button" class="btn btn-light p-1 my-3">View Full Report</button>
+  </div>
+  </div>
+</div>
+<!-- WORKING RADAR CHART ENDS HERE -->
+</div>
+</div>
+
+<!-- CHARTS WORKS ENDS HERE -->
+
+
+
+<!-- RELATED COURSE SECTION STARTS -->
+<div class="container-fluid">
+      <div class="d-flex justify-content-between px-4 mb-3">
+              <h5 class="">Recent Courses</h5>
+              <i class="bi bi-three-dots-vertical"></i>
+
+            </div>
+
+            <div class="line">
+
+            </div>
+        <div class="row mt-2">
+         
+
+             <div class="col-lg-4 col-md-4 p-4">
+                <div class="card-main">
+                  <div class="position-relative">
+  <img class="card-img-top" src="assets/images/main_images/image1.png" alt="Card image cap">
+  <div class="cardbg d-flex justify-content-between">
+    <p> lana stivesen <br> 18 jan 2018</p>
+     <p> Design</p>
+  </div>
+  </div>
+  <div class="card-body pt-3">
+    <h4>Building Your API Stack</h4>
+    <p class="card-text-body">The Rise of RestFul APIS has been met by a rise in tools for creating, testing and managing them</p>
+    <a href="" class="readmore">Read More <i class="bi bi-box-arrow-in-up-right"></i></a>
+  </div>
+</div>
+            </div>
+
+
+             <div class="col-lg-4 col-md-4 p-4">
+                <div class="card-main">
+                  <div class="position-relative">
+  <img class="card-img-top" src="assets/images/main_images/image1.png" alt="Card image cap">
+  <div class="cardbg d-flex justify-content-between">
+    <p> lana stivesen <br> 18 jan 2018</p>
+     <p> Design</p>
+  </div>
+  </div>
+  <div class="card-body pt-3">
+    <h4>Become Andriod Developer</h4>
+    <p class="card-text-body">The Rise of RestFul APIS has been met by a rise in tools for creating, testing and managing them</p>
+    <a href="" class="readmore">Read More <i class="bi bi-box-arrow-in-up-right"></i></a>
+  </div>
+</div>
+            </div>
+            
+
+            <div class="col-lg-4 col-md-4 p-4">
+                <div class="card-main">
+                <div class="position-relative">
+  <img class="card-img-top" src="assets/images/main_images/image1.png" alt="Card image cap">
+  <div class="cardbg d-flex justify-content-between">
+    <p> lana stivesen <br> 18 jan 2018</p>
+     <p> Design</p>
+  </div>
+  </div>
+  <div class="card-body pt-3">
+    <h4>Collaboration = better designer</h4>
+    <p class="card-text-body">The Rise of RestFul APIS has been met by a rise in tools for creating, testing and managing them</p>
+     <a href="" class="readmore">Read More <i class="bi bi-box-arrow-in-up-right"></i></a>
+  </div>
+</div>
+            </div>
+
+
+            
+        </div>
+</div>
+<!-- RELATED COURSE SECTION ENDS -->
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!--  BAR CHART STRATS HERE WORKS -->
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'july', 'Aug', 'Sep' , 'Oct' , 'Nov' ,'Dec'],
+        datasets: [{
+          label: 'last Month',
+          data: [80, 100, 70, 86, 69, 95 , 84 , 78 , 86 , 96 , 80 , 66 ],
+          borderWidth: 0.1,
+          barThickness: 30
+          
+         }]
+      },
+      options: {
+        scales: {
+          x: {
+            grid: {
+              display: false // Remove x-axis grid lines
+            },
+            title: {
+              display: true,
+              text: 'Month' // X-axis heading
+            }
+          },
+          y: {
+            grid: {
+              display: false // Remove y-axis grid lines
+            },
+            title: {
+              display: true,
+              text: 'Security rating' // X-axis heading
+            },
+            ticks: {
+              display: true,
+              min: 0,
+              max: 100,
+              stepSize: 20,
+              callback: function(value, index, values) {
+                if (value === 0 || value === 20 || value === 40 || value === 60 || value === 80 || value === 100) {
+                  return value;
+                } else {
+                  return '';
+                }
+              }
+            },
+            beginAtZero: true
+          }
+        },
+      }
+    });
+</script>
+<!--  BAR CHART ENDS HERE WORKS -->
+
+
+<!--  RADAR CHART STRATS HERE WORKS -->
+  <script>
+    // Radar chart configuration
+    const config = {
+      type: 'radar',
+      data: {
+        labels: ['tier1', 'tier2','tier3', 'tier4', 'tier5', 'tier6' , 'tier7'], // Labels for each radar axis
+        datasets: [
+          {
+            label:'Dataset1',
+          data: [20, 40, 80, 20, 40 , 30 , 40], // Example data points
+          backgroundColor: 'rgba(255, 99, 132, 0.2)', // Background color for the radar area
+          borderColor: 'rgba(255, 99, 132, 1)', // Border color for the radar line
+          borderWidth: 3, // Border width for the radar line
+        },
+{
+  label:'Dataset2',
+         data: [80, 20, 40, 60, 70 , 20 , 60], // Example data points
+          backgroundColor: 'rgb(53 ,56 ,205 , 0.2)', // Background color for the radar area
+          borderColor: 'rgb(53 ,56 ,205 , 1)', // Border color for the radar line
+          borderWidth: 3, 
+}
+      ]
+      },
+      options: {
+        scales: {
+          r: {
+            min: 0, // Minimum value on the y-axis
+            max: 80, // Maximum value on the y-axis
+            ticks: {
+                stepSize: 20
+            }
+           
+          }
+        },
+        elements: {
+          line: {
+            borderWidth: 3
+          }
+        }
+      },
+    };
+
+    // Create the radar chart
+    const radarChart = new Chart(document.getElementById('myRadarChart'), config);
+     </script>
+    <!--  RADAR CHART ENDS HERE WORKS -->
+
+
+
+
+
+
+
+    </div>
+   </div>
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- BOOTSTRAP JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- OWN JS FILE LINK -->
+    <script src="./assets/js/own.js"></script>
+    <!-- FOR DASHBOARD JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.jshttps://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- FOR CHART JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- FROM CODE PEN FOR CHART -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+      <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+
+    <!-- jQuery and Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
